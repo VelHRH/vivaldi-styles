@@ -1,0 +1,15 @@
+:root {
+    /* Primary Colors from settings.json */
+    --color-accent-bg: #020618;
+    --color-bg: #020618;
+    --color-fg: #dbdbdb;
+    --color-highlight-bg: #00bcff;
+    --color-window-bg: #020618;
+    --color-secondary-bg: #1d293d;
+    
+    /* Color variations with opacity */
+    --color-highlight-bg-45: #00bcff45; /* 45% opacity */
+    --color-fg-9e: #dbdbdb9e; /* ~62% opacity */
+    --color-fg-da: #dbdbdbda; /* ~85% opacity */
+}
+

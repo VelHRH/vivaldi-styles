@@ -1,48 +1,39 @@
-#main .webpageview,
-#main .webpageview:nth-child(1) {
+@import url('./color-scheme.css');
+
+#main .webpageview, #main .webpageview:nth-child(1) {
     border-radius: 12px !important;
     overflow: hidden !important;
 }
 
 #webview-container {
-    background-color: #020618 !important;
+    background-color: var(--color-bg) !important;
     padding: 3px !important;
 }
 
 .dashboard-widget {
-    background-color: #020618 !important;
+    background-color: var(--color-bg) !important;
+}
+
+.UrlBar-AddressField, .SpeedDialView-Head, .SpeedDial--Icon, .startpage-content {
+    background-color: var(--color-secondary-bg) !important;
 }
 
 .UrlBar-AddressField {
-    background-color: #1d293d !important;
     height: 25px !important;
     margin-bottom: 5px !important;
 }
 
-.SpeedDialView-Head {
-    background-color: #1d293d !important;
-}
-
-.SpeedDial--Icon {
-    background-color: #1d293d !important;
-}
-
-.startpage-content {
-    background-color: #1d293d !important;
-}
-
 .tab {
-    background-color: #020618 !important;
+    background-color: var(--color-bg) !important;
+    color: var(--color-fg-9e) !important;
 }
 
 .tab.active {
-    background-color: #00bcff45 !important;
+    background-color: var(--color-highlight-bg-45) !important;
+    color: var(--color-fg) !important;
 }
 
-
-.window-buttongroup.on-mainbar,
-.button-toolbar.toolbar-spacer,
-.button-toolbar.toolbar-spacer-panel {
+.window-buttongroup.on-mainbar, .button-toolbar.toolbar-spacer, .button-toolbar.toolbar-spacer-panel, #header {
     display: none !important;
 }
 
@@ -52,7 +43,7 @@
 }
 
 #browser .tile:has(> .tiled.webpageview) {
-    border: 2px solid #020618 !important;
+    border: 2px solid var(--color-bg) !important;
 }
 
 .transparent-tabbar .tab.active .tab-header .favicon:not(.svg),
@@ -61,24 +52,12 @@
     filter: none !important;
 }
 
-.tab.active {
-    color: #dbdbdb !important;
-}
-
-.tab {
-    color: #dbdbdb9e !important;
-}
-
-#header {
-    display: none !important;
-}
-
 .button-toolbar {
     --strokeWidth: 1px !important;
 }
 
 .button-toolbar>button {
-    color: #dbdbdbda !important;
+    color: var(--color-fg-da) !important;
 }
 
 .tab.unread {
