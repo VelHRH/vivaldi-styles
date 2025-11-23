@@ -1,0 +1,10 @@
+.tabbar-wrapper button,
+.tab,
+.WorkspacePopup button,
+.WorkspacePopup input[type="button"],
+.startpage-navigation button,
+.startpage-content button,
+.dashboard-widget > :nth-child(2),
+.workspaces > ul > li {
+    cursor: pointer !important;
+}

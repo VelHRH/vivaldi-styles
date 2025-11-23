@@ -1,0 +1,87 @@
+#main .webpageview,
+#main .webpageview:nth-child(1) {
+    border-radius: 12px !important;
+    overflow: hidden !important;
+}
+
+#webview-container {
+    background-color: #020618 !important;
+    padding: 3px !important;
+}
+
+.dashboard-widget {
+    background-color: #020618 !important;
+}
+
+.UrlBar-AddressField {
+    background-color: #1d293d !important;
+    height: 25px !important;
+    margin-bottom: 5px !important;
+}
+
+.SpeedDialView-Head {
+    background-color: #1d293d !important;
+}
+
+.SpeedDial--Icon {
+    background-color: #1d293d !important;
+}
+
+.startpage-content {
+    background-color: #1d293d !important;
+}
+
+.tab {
+    background-color: #020618 !important;
+}
+
+.tab.active {
+    background-color: #00bcff45 !important;
+}
+
+
+.window-buttongroup.on-mainbar,
+.button-toolbar.toolbar-spacer,
+.button-toolbar.toolbar-spacer-panel {
+    display: none !important;
+}
+
+.tiled.webpageview {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#browser .tile:has(> .tiled.webpageview) {
+    border: 2px solid #020618 !important;
+}
+
+.transparent-tabbar .tab.active .tab-header .favicon:not(.svg),
+.theme-dark .tab.active .tab-header .favicon:not(.svg),
+.acc-dark.color-behind-tabs-off .tab.active .tab-header .favicon:not(.svg) {
+    filter: none !important;
+}
+
+.tab.active {
+    color: #dbdbdb !important;
+}
+
+.tab {
+    color: #dbdbdb9e !important;
+}
+
+#header {
+    display: none !important;
+}
+
+.button-toolbar {
+    --strokeWidth: 1px !important;
+}
+
+.button-toolbar>button {
+    color: #dbdbdbda !important;
+}
+
+.tab.unread {
+    background-image: none !important;
+}
+
