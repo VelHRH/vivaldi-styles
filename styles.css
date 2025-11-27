@@ -64,3 +64,14 @@
     background-image: none !important;
 }
 
+#tabs-container > div.resize > div::-webkit-scrollbar {
+    width: 4px;
+}
+#tabs-container > div.resize > div::-webkit-scrollbar-thumb {
+    background: #555; 
+    border-radius: 4px;
+}
+
+#tabs-container > div.resize > div::-webkit-scrollbar-track {
+    background: transparent;
+}
